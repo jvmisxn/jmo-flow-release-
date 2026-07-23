@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/index-DlvtXhSC.js","assets/core-DhEqZVGG.js"])))=>i.map(i=>d[i]);
+import{_ as w}from"./index-BRN0zOAD.js";async function s(r,a){const{writeTextFile:i,rename:o,remove:c}=await w(async()=>{const{writeTextFile:e,rename:n,remove:m}=await import("./index-DlvtXhSC.js");return{writeTextFile:e,rename:n,remove:m}},__vite__mapDeps([0,1])),t=`${r}.${Math.random().toString(36).slice(2,10)}.tmp`;await i(t,a);try{await o(t,r)}catch(e){try{await c(t)}catch{}throw e}}export{s as writeTextFileAtomic};
